@@ -11,20 +11,20 @@ CubeSats are a class of nanosatellites that use a standard size and form factor.
 NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ames has launched 16 CubeSat spacecraft varying in size from 1U to 3U with an additional 12 CubeSats in development or awaiting launch.
 #### CUBESAT DISPENSER
 the dispenser, which is the interface between the CubeSat and the launch vehicle (LV). The dispenser provides attachment to a launch vehicle (or rocket), protects the CubeSat during launch, and releases it into space at the appropriate time.There are a number of different types of dispensers on the market. Each has different features, but they are all designed to hold satellites that conform to the standard CubeSat form factor.<img src="https://insights.globalspec.com/images/assets/912/11912/ULA_CubeSat_NPSCul-Lite_ABC.png" alt="Image" style="float: right; margin-left: 10px;">
-The project phases (and typical timeframes) are as follows:
-1. Concept Development (1–6 months)'\n'
-2. Securing Funding (1–12 months)
-3. Merit and Feasibility Reviews (1–2 months)
-4. CubeSat Design (1–6 months)
-5. Development and Submittal of Proposal in Response to CSLI Call (3–4 months)
-6. Selection and Manifesting (1–36 months)
-7. Mission Coordination (9–18 months)
-8. Licensing (4–6 months)
-9. Flight-Specific Documentation Development and Submittal (10–12 months)
-10. Ground Station Design, Development, and Testing (2–12 months)
-11. CubeSat Hardware Fabrication and Testing (2–12 months)
-12. Mission Readiness Reviews (half-day)
-13. CubeSat to Dispenser Integration and Testing (1 day)
-14. Dispenser to Launch Vehicle Integration (1 day)
-15. Launch (1 day)
-16. Mission Operations (variable, up to 20 years)
+The project phases (and typical timeframes) are as follows:<br>
+1. Concept Development (1–6 months)<br>
+2. Securing Funding (1–12 months)<br>
+3. Merit and Feasibility Reviews (1–2 months)<br>
+4. CubeSat Design (1–6 months)<br>
+5. Development and Submittal of Proposal in Response to CSLI Call (3–4 months)<br>
+6. Selection and Manifesting (1–36 months)<br>
+7. Mission Coordination (9–18 months)<br>
+8. Licensing (4–6 months)<br>
+9. Flight-Specific Documentation Development and Submittal (10–12 months)<br>
+10. Ground Station Design, Development, and Testing (2–12 months)<br>
+11. CubeSat Hardware Fabrication and Testing (2–12 months)<br>
+12. Mission Readiness Reviews (half-day)<br>
+13. CubeSat to Dispenser Integration and Testing (1 day)<br>
+14. Dispenser to Launch Vehicle Integration (1 day)<br>
+15. Launch (1 day)<br>
+16. Mission Operations (variable, up to 20 years)<br>
