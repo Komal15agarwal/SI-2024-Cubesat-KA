@@ -45,3 +45,6 @@ The communication system of a CubeSat is a critical subsystem that enables the s
     <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/34345e91-20bf-4e79-b79a-016ff0701a6b" alt="Image 1" style="width: 45%;">
     <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/f3d10417-e48d-479c-ac7b-51cb335c7313" alt="Image 2" style="width: 45%;">
 </div>
+DIGITAL MODULATION METHODS:-
+1.BANDPASS MODULATION:-
+2.Frequency Shift Keying:-It is a frequency modulation scheme in which digital information is encoded on a carrier signal by periodically shifting the frequency of the carrier between several discrete frequencies.
