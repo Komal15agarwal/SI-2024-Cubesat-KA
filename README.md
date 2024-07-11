@@ -10,7 +10,7 @@ The first CubeSats were launched in 2003 and just nine years later, the one hund
 CubeSats are a class of nanosatellites that use a standard size and form factor.  The standard CubeSat size uses a “one unit” or “1U” measuring 10x10x10 cms and is extendable to larger sizes; 1.5, 2, 3, 6, and even 12U.  Originally developed in 1999 by California Polytechnic State University at San Luis Obispo (Cal Poly) and Stanford University to provide a platform for education and space exploration.
 <div style="display: flex; justify-content: space-between;">
     <img src="https://www.nasa.gov/wp-content/uploads/2015/03/what_are_cubesats.png" alt="Image 1" style="width: 45%;">
-    <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/f3d10417-e48d-479c-ac7b-51cb335c7313" alt="Image 2" style="width: 45%;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nanosatellites_yearly_launches.svg/1920px-Nanosatellites_yearly_launches.svg.png" alt="Image 2" style="width: 45%;">
 </div>
 NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ames has launched 16 CubeSat spacecraft varying in size from 1U to 3U with an additional 12 CubeSats in development or awaiting launch.
 #### CUBESAT DISPENSER
