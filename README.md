@@ -42,6 +42,6 @@ The communication system of a CubeSat is a critical subsystem that enables the s
 4:-Ground Station Network:Ground stations are terrestrial facilities equipped with large antennas and radio equipment to communicate with CubeSats orbiting overhead.Ground stations track the CubeSat's orbit and establish communication windows during which data can be transmitted and received.
 5:-Command and Data Handling:Command and data handling subsystems manage the flow of data between the communication system, onboard computer, and payload instruments.CubeSats often use standard communication protocols (such as AX.25 for amateur radio bands) for data exchange between the satellite and ground stations.
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://www.nasa.gov/wp-content/uploads/2015/03/what_are_cubesats.png" alt="Image 1" style="width: 45%;">
+    <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/34345e91-20bf-4e79-b79a-016ff0701a6b" alt="Image 1" style="width: 45%;">
     <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/f3d10417-e48d-479c-ac7b-51cb335c7313" alt="Image 2" style="width: 45%;">
 </div>
