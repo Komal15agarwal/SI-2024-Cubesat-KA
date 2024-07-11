@@ -32,4 +32,4 @@ The project phases (and typical timeframes) are as follows:<br>
 14. Dispenser to Launch Vehicle Integration (1 day)<br>
 15. Launch (1 day)<br>
 16. Mission Operations (variable, up to 20 years)<br>
-### MINIMAL PAYLOADS:-
+*MINIMAL PAYLOADS:-*
