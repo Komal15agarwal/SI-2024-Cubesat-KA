@@ -10,7 +10,7 @@ The first CubeSats were launched in 2003 and just nine years later, the one hund
 CubeSats are a class of nanosatellites that use a standard size and form factor.  The standard CubeSat size uses a “one unit” or “1U” measuring 10x10x10 cms and is extendable to larger sizes; 1.5, 2, 3, 6, and even 12U.  Originally developed in 1999 by California Polytechnic State University at San Luis Obispo (Cal Poly) and Stanford University to provide a platform for education and space exploration.
 <div style="display: flex; justify-content: space-between;">
     <img src="https://www.nasa.gov/wp-content/uploads/2015/03/what_are_cubesats.png" alt="Image 1" style="width: 45%;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nanosatellites_yearly_launches.svg/1920px-Nanosatellites_yearly_launches.svg.png" alt="Image 2" style="width: 45%;">
+    <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/f3d10417-e48d-479c-ac7b-51cb335c7313" alt="Image 2" style="width: 45%;">
 </div>
 NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ames has launched 16 CubeSat spacecraft varying in size from 1U to 3U with an additional 12 CubeSats in development or awaiting launch.
 #### CUBESAT DISPENSER
@@ -34,4 +34,14 @@ The project phases (and typical timeframes) are as follows:<br>
 16. Mission Operations (variable, up to 20 years)<br>
 MINIMAL PAYLOADS:-A minimal payload refers to the basic set of components and instruments carried onboard a satellite, particularly CubeSats, to achieve its primary mission objectives. This concept is crucial in the context of CubeSats due to their small size, limited resources, and constrained budgets. The idea is to design and implement a payload that is essential, compact, and efficient, ensuring that the satellite can still perform meaningful tasks despite its size limitations.
 ![MINIMAL PAYLOAD](https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/0cc567cb-93d5-4572-9e43-fb2f154d03d2)
-
+CUBESAT ARCHITECTURE:-
+The communication system of a CubeSat is a critical subsystem that enables the satellite to establish communication links with ground stations for data transmission, command reception, and telemetry monitoring. Given the small size and low power constraints of CubeSats, the communication system is designed to be compact, efficient, and capable of operating within the limitations of the CubeSat platform.
+1:-Transceiver:-The transceiver serves as the primary radio communication device onboard the CubeSat. It transmits data to ground stations and receives commands and telemetry data from Earth.CubeSats typically operate in amateur radio bands (e.g., UHF/VHF) or commercial bands (e.g., S-band) depending on regulatory approvals and mission requirements.
+2:-Antennas:-Antennas are essential for transmitting and receiving radio signals between the CubeSat and ground stations.Antennas are essential for transmitting and receiving radio signals between the CubeSat and ground stations.
+3:-Modulation and Coding:Modulation and coding techniques are used to encode and decode data transmitted over the radio link.CubeSats typically use forward error correction (FEC) coding schemes to ensure reliable data transmission despite potential signal degradation or interference.
+4:-Ground Station Network:Ground stations are terrestrial facilities equipped with large antennas and radio equipment to communicate with CubeSats orbiting overhead.Ground stations track the CubeSat's orbit and establish communication windows during which data can be transmitted and received.
+5:-Command and Data Handling:Command and data handling subsystems manage the flow of data between the communication system, onboard computer, and payload instruments.CubeSats often use standard communication protocols (such as AX.25 for amateur radio bands) for data exchange between the satellite and ground stations.
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://www.nasa.gov/wp-content/uploads/2015/03/what_are_cubesats.png" alt="Image 1" style="width: 45%;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nanosatellites_yearly_launches.svg/1920px-Nanosatellites_yearly_launches.svg.png" alt="Image 2" style="width: 45%;">
+</div>
