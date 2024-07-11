@@ -12,7 +12,7 @@ NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ame
 #### CUBESAT DISPENSER
 the dispenser, which is the interface between the CubeSat and the launch vehicle (LV). The dispenser provides attachment to a launch vehicle (or rocket), protects the CubeSat during launch, and releases it into space at the appropriate time.There are a number of different types of dispensers on the market. Each has different features, but they are all designed to hold satellites that conform to the standard CubeSat form factor.<img src="https://insights.globalspec.com/images/assets/912/11912/ULA_CubeSat_NPSCul-Lite_ABC.png" alt="Image" style="float: right; margin-left: 10px;">
 The project phases (and typical timeframes) are as follows:
-1. Concept Development (1–6 months)
+1. Concept Development (1–6 months)'\n'
 2. Securing Funding (1–12 months)
 3. Merit and Feasibility Reviews (1–2 months)
 4. CubeSat Design (1–6 months)
