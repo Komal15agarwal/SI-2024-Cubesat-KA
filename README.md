@@ -33,4 +33,5 @@ The project phases (and typical timeframes) are as follows:<br>
 15. Launch (1 day)<br>
 16. Mission Operations (variable, up to 20 years)<br>
 MINIMAL PAYLOADS:-A minimal payload refers to the basic set of components and instruments carried onboard a satellite, particularly CubeSats, to achieve its primary mission objectives. This concept is crucial in the context of CubeSats due to their small size, limited resources, and constrained budgets. The idea is to design and implement a payload that is essential, compact, and efficient, ensuring that the satellite can still perform meaningful tasks despite its size limitations.
-![MINIMAL PAYLOAD](https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/6ebd22ea-eaaf-4b3e-9120-afbb09477677)
+![MINIMAL PAYLOAD](https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/718e146f-05c0-4df3-8af4-d848a3c2a5cf)
+
