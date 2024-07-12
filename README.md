@@ -1,6 +1,6 @@
-**SI-2024-Cubesat-KA**
-**My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation**
-**Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity.**
+**SI-2024-Cubesat-KA**<br>
+**My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation**<br>
+**Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity.**<br>
 ![Glimpse to Cubesat](https://www.cblelectronics.com/sites/default/files/2022-03/cubesat-00.jpg)
 # ABSTRACT
 The first CubeSats were launched in 2003 and just nine years later, the one hundredth CubeSat has been put in orbit. By the end of 2012, 112 CubeSat-class missions were flown, fielded by nearly 80 organizations from 24 countries on 29 rockets.The original intent of the project was to provide affordable access to space for the university science community, and it has successfully done so, many major universities now have a space program.
@@ -14,9 +14,9 @@ CubeSats are a class of nanosatellites that use a standard size and form factor.
 </div>
 NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ames has launched 16 CubeSat spacecraft varying in size from 1U to 3U with an additional 12 CubeSats in development or awaiting launch.<br>
 
-**CUBESAT DISPENSER:-<br>**
+## CUBESAT DISPENSER:-<br>
 The dispenser, which is the interface between the CubeSat and the launch vehicle (LV). The dispenser provides attachment to a launch vehicle (or rocket), protects the CubeSat during launch, and releases it into space at the appropriate time.There are a number of different types of dispensers on the market. Each has different features, but they are all designed to hold satellites that conform to the standard CubeSat form factor.<img src="https://insights.globalspec.com/images/assets/912/11912/ULA_CubeSat_NPSCul-Lite_ABC.png" alt="Image" style="float: right; margin-left: 10px;">
-The project phases (and typical timeframes) are as follows:<br>
+**The project phases (and typical timeframes) are as follows:<br>**
 1. Concept Development (1–6 months)<br>
 2. Securing Funding (1–12 months)<br>
 3. Merit and Feasibility Reviews (1–2 months)<br>
@@ -33,7 +33,8 @@ The project phases (and typical timeframes) are as follows:<br>
 14. Dispenser to Launch Vehicle Integration (1 day)<br>
 15. Launch (1 day)<br>
 16. Mission Operations (variable, up to 20 years)<br>
-MINIMAL PAYLOADS:-A minimal payload refers to the basic set of components and instruments carried onboard a satellite, particularly CubeSats, to achieve its primary mission objectives. This concept is crucial in the context of CubeSats due to their small size, limited resources, and constrained budgets. The idea is to design and implement a payload that is essential, compact, and efficient, ensuring that the satellite can still perform meaningful tasks despite its size limitations.
+**MINIMAL PAYLOAD:-**<br>
+A minimal payload refers to the basic set of components and instruments carried onboard a satellite, particularly CubeSats, to achieve its primary mission objectives. This concept is crucial in the context of CubeSats due to their small size, limited resources, and constrained budgets. The idea is to design and implement a payload that is essential, compact, and efficient, ensuring that the satellite can still perform meaningful tasks despite its size limitations.
 <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/0cc567cb-93d5-4572-9e43-fb2f154d03d2">
 CUBESAT ARCHITECTURE:-<br>
 The communication system of a CubeSat is a critical subsystem that enables the satellite to establish communication links with ground stations for data transmission, command reception, and telemetry monitoring. Given the small size and low power constraints of CubeSats, the communication system is designed to be compact, efficient, and capable of operating within the limitations of the CubeSat platform.<br>
