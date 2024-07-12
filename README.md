@@ -101,4 +101,12 @@ The first time you flash your board you can use the [web installer](https://inst
 All data received by TinyGS Ground Stations are showed at [TinyGS website](https://tinygs.com/)
 - **Community:** <br>
 We had used Telegram as the main communication channel for the project. There are also two channels where we can subscribe and get updated automátically whenever a new packet is received by the network from the Satellite.<br>
-[Link to telegram community](https://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q)
+[Link to telegram community](https://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q)<br>
+[Link to Personal Bot](https://t.me/tinygs_personal_bot)<br>
+In Personal bot we generated our MQTT credentials,Station and [Web Link for mytinyGs](https://tinygs.com/station/TGS_komal@7057635270#close),here we ended up receving 61 packets in one night.<br>
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/user-attachments/assets/fc5dd728-07e7-49b3-9958-9d8f44d30c68" alt="Image 1" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/379bf91c-c37f-4e4e-9a08-6e7bcb66c90c" alt="Image 2" style="width: 45%;">
+</div>
+
+[Here the Records of Packets received](https://github.com/user-attachments/files/16191009/TinyGS_Record.1.xlsx)
