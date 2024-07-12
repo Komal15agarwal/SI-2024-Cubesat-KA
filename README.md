@@ -111,6 +111,13 @@ Antennas are used to transmit and receive information through changes in the ele
     <img src="https://github.com/user-attachments/assets/581cfdb4-80c6-4f5b-b5ee-ecd0f1f95cb7" alt="Image 2" style="width: 45%;">
 </div>
 
+## SPREAD SPECTRUM:-<br>
+Spread spectrum is a technique used in wireless communication to spread the signal over a wider bandwidth than the minimum required for transmitting the data. This method offers several advantages, including increased resistance to interference, improved security, and reduced susceptibility to jamming.
+- **Resistance to Interference:** Spread spectrum techniques spread the signal energy over a wider bandwidth, making the signal less susceptible to narrowband interference and jamming.
+- **Enhanced Security:** Due to the spreading code or hopping sequence known only to authorized users, spread spectrum systems offer inherent security against unauthorized interception.
+- **Multiple Access Capability:** Allows multiple users to share the same frequency band without significant mutual interference, enhancing spectral efficiency in crowded radio environments.
+- **Improved Signal Quality:** Spread spectrum mitigates multipath effects and improves signal robustness, resulting in more reliable communication in various environmental conditions.
+![Spread spectrum](https://github.com/user-attachments/assets/56e1aef2-5bd0-487d-8bb0-54e13e78576e)
 ## TINY GROUND STATION:-<br>
 TinyGS is an open network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules.Initially TinyGS was born under the name ESP32 Fossa Groundstation, it was developed as a "weekend" project for the FossaSAT-1 LoRa satellite. We are passionate about space and created this project to be able to track and use the satellites and to learn and experiment about radio. Currently the network is open to any LoRa satellite and we also support other flying objects that have a compatible radio modulation with our hardware such as FSK, GFSK, MSK, GMSK, LoRa and OOK. And the project was renamed to TinyGS.
 <div style="display: flex; justify-content: space-between;">
