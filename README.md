@@ -104,6 +104,13 @@ Antennas are used to transmit and receive information through changes in the ele
     <img src="https://github.com/user-attachments/assets/d74d216b-3781-4d11-a179-be578540f0f9" alt="Image 2" style="width:10000%; height:auto; margin-left:10px;">  
 </div>
 
+## GLIMPSE TO SATELLITE FORMULAS
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/user-attachments/assets/5b66830b-892d-4071-b2d3-c62da8aaa205" alt="Image 1" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/581cfdb4-80c6-4f5b-b5ee-ecd0f1f95cb7" alt="Image 2" style="width: 45%;">
+</div>
+
 ## TINY GROUND STATION:-<br>
 TinyGS is an open network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules.Initially TinyGS was born under the name ESP32 Fossa Groundstation, it was developed as a "weekend" project for the FossaSAT-1 LoRa satellite. We are passionate about space and created this project to be able to track and use the satellites and to learn and experiment about radio. Currently the network is open to any LoRa satellite and we also support other flying objects that have a compatible radio modulation with our hardware such as FSK, GFSK, MSK, GMSK, LoRa and OOK. And the project was renamed to TinyGS.
 <div style="display: flex; justify-content: space-between;">
