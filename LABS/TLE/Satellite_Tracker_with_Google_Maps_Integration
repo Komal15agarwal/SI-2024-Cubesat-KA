@@ -1,0 +1,67 @@
+from skyfield.api import EarthSatellite, load
+from datetime import datetime
+import time
+import webbrowser
+
+def generate_maps_url(latitude, longitude):
+    return f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
+
+def main():
+    try:
+        # Prompt user to input TLE data
+        print("Enter TLE data:")
+        line1 = input("Enter line 1: ").strip()
+        line2 = input("Enter line 2: ").strip()
+
+        # Extract satellite name from line 1 if available
+        satellite_name = line1.split()[1]
+
+        # Load TLE data into a satellite object
+        satellite = EarthSatellite(line1, line2, name=satellite_name)
+
+        # Load timescale
+        ts = load.timescale()
+
+        while True:
+            # Get current UTC time
+            now = datetime.utcnow()
+
+            # Compute satellite position at the current time
+            t = ts.utc(now.year, now.month, now.day, now.hour, now.minute, now.second + now.microsecond / 1e6)
+            position = satellite.at(t)
+
+            # Get GeographicPosition object
+            geo_position = position.subpoint()
+
+            # Extract latitude, longitude, and altitude in degrees and kilometers
+            latitude = geo_position.latitude.degrees
+            longitude = geo_position.longitude.degrees
+
+            print(f" ")
+            print(f"{satellite_name}")
+            print(f"Latitude, Longitude: {latitude}, {longitude}")
+
+            # Calculate altitude (height above Earth's surface)
+            distance_from_earth_center = position.distance().km
+            radius_of_earth = 6371.0  # Radius of the Earth in kilometers
+            altitude = distance_from_earth_center - radius_of_earth
+
+            print(f"Altitude: {altitude} km")
+
+            # Generate Google Maps URL
+            maps_url = generate_maps_url(latitude, longitude)
+            print(f"Google Maps URL: {maps_url}")
+
+            # Open Google Maps in the default web browser
+            webbrowser.open(maps_url)
+
+            # Delay for a while before fetching the next position
+            time.sleep(10)  # Fetch position every 10 seconds (adjust as needed)
+
+    except KeyboardInterrupt:
+        print("\nTerminated by user.")
+    except Exception as e:
+        print(f"Error occurred: {e}")
+
+if _name_ == "_main_":
+    main()
