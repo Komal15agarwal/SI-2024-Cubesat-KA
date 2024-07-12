@@ -34,7 +34,7 @@ The project phases (and typical timeframes) are as follows:<br>
 16. Mission Operations (variable, up to 20 years)<br>
 MINIMAL PAYLOADS:-A minimal payload refers to the basic set of components and instruments carried onboard a satellite, particularly CubeSats, to achieve its primary mission objectives. This concept is crucial in the context of CubeSats due to their small size, limited resources, and constrained budgets. The idea is to design and implement a payload that is essential, compact, and efficient, ensuring that the satellite can still perform meaningful tasks despite its size limitations.
 <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/0cc567cb-93d5-4572-9e43-fb2f154d03d2">
-CUBESAT ARCHITECTURE:-
+CUBESAT ARCHITECTURE:-<br>
 The communication system of a CubeSat is a critical subsystem that enables the satellite to establish communication links with ground stations for data transmission, command reception, and telemetry monitoring. Given the small size and low power constraints of CubeSats, the communication system is designed to be compact, efficient, and capable of operating within the limitations of the CubeSat platform.<br>
 1:-Transceiver:-The transceiver serves as the primary radio communication device onboard the CubeSat. It transmits data to ground stations and receives commands and telemetry data from Earth.CubeSats typically operate in amateur radio bands (e.g., UHF/VHF) or commercial bands (e.g., S-band) depending on regulatory approvals and mission requirements.<br>
 2:-Antennas:-Antennas are essential for transmitting and receiving radio signals between the CubeSat and ground stations.Antennas are essential for transmitting and receiving radio signals between the CubeSat and ground stations.<br>
@@ -45,7 +45,7 @@ The communication system of a CubeSat is a critical subsystem that enables the s
     <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/34345e91-20bf-4e79-b79a-016ff0701a6b" alt="Image 1" style="width: 45%;">
     <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/f3d10417-e48d-479c-ac7b-51cb335c7313" alt="Image 2" style="width: 45%;">
 </div>
-DIGITAL MODULATION METHODS:-
+DIGITAL MODULATION METHODS:-<br>
 1.BANDPASS MODULATION:-It refers to modulation of signal over a carrier frequency. In these techniques the signal to be transmitted is sent by modulating either one or more of the three properties of carrier wave. <br>
 2.Frequency Shift Keying:-It is a frequency modulation scheme in which digital information is encoded on a carrier signal by periodically shifting the frequency of the carrier between several discrete frequencies.<br>
 3.Fast Fourier Transform:-FFT is a fast algorithm for computing the DFT of a sequence or its inverse. The DFT converts a signal from its original domain (typically time or space) to a representation in the frequency domain.<br>
@@ -63,5 +63,17 @@ Multipath / fading resistant: The chirp pulse is relatively broadband and thus L
 Doppler Resistant: Doppler shift causes a small frequency shift in the LoRa pulse which introduces a relatively negligible shift in the time axis of the baseband signal. This frequency offset tolerance mitigates the requirement for tight tolerance reference clock sources. Ideally suited for satellite communication.<br>
 Long Range Capability: For a fixed output power and throughput, the link budget of LoRa exceeds that of conventional FSK.<br>
 VERY LARGE SCALE INTEGRATION:-<br>
-Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip. VLSI began in the 1970s when complex semiconductor and communication technologies were being developed. The microprocessor is a VLSI device.It is a process used in the design and fabrication of integrated circuits (ICs), which are electronic circuits that are made up of a large number of transistors and other components that are integrated into a single chip. 
+Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip. VLSI began in the 1970s when complex semiconductor and communication technologies were being developed. The microprocessor is a VLSI device.It is a process used in the design and fabrication of integrated circuits (ICs), which are electronic circuits that are made up of a large number of transistors and other components that are integrated into a single chip. <br>
 <img src="https://github.com/user-attachments/assets/3445748b-1492-434a-9e70-e80ade2162e0">
+Introduction to Antenna:-<br>
+Antennas are used to transmit and receive information through changes in the electromagnetic fields that surround them.It employed in space communications are key components providing the vital links between the ground and the spacecraft.An antenna is a fundamental component in the field of electromagnetic waves and communication systems, serving as the interface between electrical signals propagating through conductors and electromagnetic waves traveling through space.<br>
+Basic Principles of Antennas:<br>
+Functionality:<br>
+Radiation and Reception: Antennas convert electrical signals into electromagnetic waves for transmission (radiation) and vice versa for reception.<br>
+Propagation: Electromagnetic waves radiate from antennas into space or are captured from space, depending on whether the antenna is transmitting or receiving.<br>
+Electromagnetic Theory:<br>
+Maxwell's Equations: Antennas operate based on Maxwell's equations, which describe how electric and magnetic fields interact and propagate through space.<br>
+Wavelength and Frequency: Antennas are designed to operate at specific wavelengths corresponding to their intended frequency bands.<br>
+Radiation Patterns:<br>
+Directivity: Antennas have specific radiation patterns that describe how electromagnetic energy is distributed in space.<br>
+Gain: The gain of an antenna quantifies its directional capability, indicating how much power is radiated in the desired direction compared to an isotropic radiator.<br>
