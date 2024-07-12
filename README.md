@@ -77,3 +77,7 @@ Wavelength and Frequency: Antennas are designed to operate at specific wavelengt
 Radiation Patterns:<br>
 Directivity: Antennas have specific radiation patterns that describe how electromagnetic energy is distributed in space.<br>
 Gain: The gain of an antenna quantifies its directional capability, indicating how much power is radiated in the desired direction compared to an isotropic radiator.<br>
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/user-attachments/assets/a7527dad-40fe-4228-9e85-06619fb235a0" alt="Image 1" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/d74d216b-3781-4d11-a179-be578540f0f9" alt="Image 2" style="width: 45%;">
+</div>
