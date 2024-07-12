@@ -85,6 +85,7 @@ Very-large-scale integration (VLSI) is the process of creating an integrated cir
     <img src="https://github.com/user-attachments/assets/ae0ec79a-0205-4728-b088-974abf857b57" alt="Image 1" style="width: 45%;">
     <img src="https://github.com/user-attachments/assets/c2fe779a-f342-47d8-85df-c1bf95be101d" alt="Image 2" style="width: 45%;">
 </div>
+
 ## Introduction to Antenna:-<br>
 Antennas are used to transmit and receive information through changes in the electromagnetic fields that surround them.It employed in space communications are key components providing the vital links between the ground and the spacecraft.An antenna is a fundamental component in the field of electromagnetic waves and communication systems, serving as the interface between electrical signals propagating through conductors and electromagnetic waves traveling through space.<br>
 **Basic Principles of Antennas:** <br>
