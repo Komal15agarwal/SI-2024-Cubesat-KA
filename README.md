@@ -142,8 +142,11 @@ In Personal bot we generated our MQTT credentials,Station and [Web Link for myti
 Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
 - **Lab 2: Intro to GPIO programming**
     - We learnt to configure a GPIO as an output and control an LED with it.
+    - Working with GPIO (General Purpose Input/Output) pins to control external devices like LEDs is a fundamental aspect of embedded systems and microcontroller programming.
+    - Examples for this are [LAB_1](LABS/ESP-32/LAB_1) and [LAB_2](LABS/ESP-32/LAB_2)
 - **Lab 3: Dimming LED using PWM**
     - We have used the ESP32 to control the light intensity of an external LED using PWM signal.
+    - PWM (Pulse Width Modulation) is a technique used to generate analog-like signals using digital means, commonly employed in microcontroller-based systems for tasks like controlling motors, dimming LEDs, generating audio signals, and more
     - From the [LED Datasheet](Resources/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
       
        |PARAMETERS                                        |VALUES |
@@ -170,16 +173,32 @@ Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
 - **Lab 5: Printing data in the serial monitor**
     -The Serial Monitor is an essential tool when creating projects with Arduino. It can be used as a debugging tool, testing concepts, or communicating directly with the Arduino board.
     - he Arduino IDE 2 has the Serial Monitor tool integrated with the editor, which means that no external window is opened when using the Serial Monitor. This means that you can have multiple windows open, each with its own Serial Monitor.
+    - It is a fundamental way to debug and monitor the behavior of your microcontroller or development board.
+    - Printing data to the serial monitor is essential for debugging and monitoring your application’s behavior in real-time.
 - **Lab 6: Controlling an LED through serial monitor**
     - Controlling an LED connected to ESP32 by reading commands from the serial monitor and turning the LED on or off based on those commands.
+    - Serial.begin(9600): Initializes serial communication with a baud rate of 9600. Make sure the baud rate in the Serial Monitor matches this value.
+    - pinMode(ledPin, OUTPUT): Configures ledPin (GPIO 13) as an output pin, which will control the LED.
+    - Serial.available(): Checks if there are any bytes available to read from the serial input buffer.
+    - Serial.read(): Reads the next byte of data from the serial port. In this case, it expects '0' to turn the LED OFF and '1' to turn the LED ON.
+    - digitalWrite(ledPin, HIGH) and digitalWrite(ledPin, LOW): These functions control the state of ledPin, setting it HIGH (ON) or LOW (OFF) based on the command received from the serial monitor.
+    - Serial.println(): Prints a message back to the serial monitor indicating the current state of the LED.
 - **Lab 7: I2C-based OLED Display control**
     - I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
+    - Controlling an OLED display over I2C (Inter-Integrated Circuit) with an ESP32 involves initializing the I2C communication, sending commands and data to the display, and displaying text, graphics, or other elements on the OLED screen.
+    - **Components Needed:**
+      - ESP32 development board (e.g., ESP32 DevKit)
+      - I2C-based OLED display (e.g., SSD1306)
 - **Lab 8: Introduction Signal Processing using Python**
-    - Computed the FFT of the above signal and plot it.
+    - Signal processing using Python is a broad and powerful field that involves manipulating and analyzing signals to extract useful information from them.
+    - Python, with its rich ecosystem of libraries, is well-suited for various signal processing tasks.
+    - Python, with libraries like NumPy, SciPy, Matplotlib, and others, provides robust tools for signal processing tasks ranging from basic operations (e.g., filtering and Fourier transforms) to advanced techniques (e.g., time-frequency analysis and spectral estimation).
+    - Computed the [FFT](LABS/PYTHON/fft.py) and [FSK](LABS/PYTHON/fsk.py) of the above signal and plot it.
       - We have notice the FFT resolution is very limited for a single cycle.
     - Created another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
 - **Lab 9: I2C temperature sensor interface**
     - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
+    - Interfacing an I2C temperature sensor with a microcontroller like the ESP32 involves reading temperature data from the sensor using the I2C protocol.
 - **Lab 10: Introduction to LoRa module**
     - Introduction to architecture and pin configuration of Ra-02 Lora transceiver module and SPI (Serial Peripheral Interface) communication.
 - **Lab 11: LoRa communication**
