@@ -1,19 +1,20 @@
-# SI-2024-Cubesat-KA
-## My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation
-### Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity.
+**SI-2024-Cubesat-KA**
+**My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation**
+**Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity.**
 ![Glimpse to Cubesat](https://www.cblelectronics.com/sites/default/files/2022-03/cubesat-00.jpg)
-### ABSTRACT
+# ABSTRACT
 The first CubeSats were launched in 2003 and just nine years later, the one hundredth CubeSat has been put in orbit. By the end of 2012, 112 CubeSat-class missions were flown, fielded by nearly 80 organizations from 24 countries on 29 rockets.The original intent of the project was to provide affordable access to space for the university science community, and it has successfully done so, many major universities now have a space program.
-### INTRODUCTION
+# INTRODUCTION
 
-### What are Cubesats?
+## What are Cubesats?
 CubeSats are a class of nanosatellites that use a standard size and form factor.  The standard CubeSat size uses a “one unit” or “1U” measuring 10x10x10 cms and is extendable to larger sizes; 1.5, 2, 3, 6, and even 12U.  Originally developed in 1999 by California Polytechnic State University at San Luis Obispo (Cal Poly) and Stanford University to provide a platform for education and space exploration.
 <div style="display: flex; justify-content: space-between;">
     <img src="https://www.nasa.gov/wp-content/uploads/2015/03/what_are_cubesats.png" alt="Image 1" style="width: 45%;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nanosatellites_yearly_launches.svg/1920px-Nanosatellites_yearly_launches.svg.png" alt="Image 2" style="width: 45%;">
 </div>
 NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ames has launched 16 CubeSat spacecraft varying in size from 1U to 3U with an additional 12 CubeSats in development or awaiting launch.<br>
-CUBESAT DISPENSER:-<br>
+
+**CUBESAT DISPENSER:-<br>**
 The dispenser, which is the interface between the CubeSat and the launch vehicle (LV). The dispenser provides attachment to a launch vehicle (or rocket), protects the CubeSat during launch, and releases it into space at the appropriate time.There are a number of different types of dispensers on the market. Each has different features, but they are all designed to hold satellites that conform to the standard CubeSat form factor.<img src="https://insights.globalspec.com/images/assets/912/11912/ULA_CubeSat_NPSCul-Lite_ABC.png" alt="Image" style="float: right; margin-left: 10px;">
 The project phases (and typical timeframes) are as follows:<br>
 1. Concept Development (1–6 months)<br>
@@ -80,4 +81,10 @@ Gain: The gain of an antenna quantifies its directional capability, indicating h
 <div style="display:flex; justify-content:center; align-items:center;">
     <img src="https://github.com/user-attachments/assets/a7527dad-40fe-4228-9e85-06619fb235a0" alt="Image 1" style="width:50%; height:15%; margin-right:10px;">
     <img src="https://github.com/user-attachments/assets/d74d216b-3781-4d11-a179-be578540f0f9" alt="Image 2" style="width:10000%; height:auto; margin-left:10px;">  
+</div>
+**TINY GROUND STATION:-**<br>
+TinyGS is an open network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules.Initially TinyGS was born under the name ESP32 Fossa Groundstation, it was developed as a "weekend" project for the FossaSAT-1 LoRa satellite. We are passionate about space and created this project to be able to track and use the satellites and to learn and experiment about radio. Currently the network is open to any LoRa satellite and we also support other flying objects that have a compatible radio modulation with our hardware such as FSK, GFSK, MSK, GMSK, LoRa and OOK. And the project was renamed to TinyGS.
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/user-attachments/assets/942f2eed-8db5-4f02-a352-e55d79052682" alt="Image 1" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/bece17a1-4db8-4502-b4de-f56adf91ea27" alt="Image 2" style="width: 45%;">
 </div>
