@@ -1,6 +1,7 @@
 # **INTRODUCTION TO CUBESAT AND SATELLITE**<br>
 **My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation**<br>
 **Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity.**<br>
+
 ![Glimpse to Cubesat](https://www.cblelectronics.com/sites/default/files/2022-03/cubesat-00.jpg)
 # ABSTRACT
 The first CubeSats were launched in 2003 and just nine years later, the one hundredth CubeSat has been put in orbit. By the end of 2012, 112 CubeSat-class missions were flown, fielded by nearly 80 organizations from 24 countries on 29 rockets.The original intent of the project was to provide affordable access to space for the university science community, and it has successfully done so, many major universities now have a space program.
