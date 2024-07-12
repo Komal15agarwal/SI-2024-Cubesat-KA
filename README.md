@@ -55,6 +55,13 @@ DIGITAL MODULATION METHODS:-
 </div>
 LoRa Module:-<br>
 A LoRa module is a type of wireless communication module that utilizes LoRa (Long Range) modulation technology for long-range communication with low power consumption. LoRa modules are commonly used in IoT (Internet of Things) applications, sensor networks, and other scenarios where long-distance communication and low power consumption are crucial.LoRa modules are small devices designed to transmit data on the LoRaWAN wireless network on frequencies in the 864-915 MHz range, depending on the region.<br>
+KEY PROPERTIES OF LoRa:-<br>
+Scalable bandwidth: LoRa modulation is both bandwidth and frequency scalable. It can be used for both narrowband frequency hopping and wideband direct sequence applications.<br>
+Constant Envelope / Low-Power: Similar to FSK, LoRa is a constant envelope modulation scheme which means that the same low-cost and low-power high-efficiency PA stages can be re-used without modification.<br>
+High Robustness: Asynchronous nature a LoRa signal is very resistant to both in-band and out-of-band interference mechanisms.<br>
+Multipath / fading resistant: The chirp pulse is relatively broadband and thus LoRa offers immunity to multipath and fading, making it ideal for use in urban and suburban environments, where both mechanisms dominate.<br>
+Doppler Resistant: Doppler shift causes a small frequency shift in the LoRa pulse which introduces a relatively negligible shift in the time axis of the baseband signal. This frequency offset tolerance mitigates the requirement for tight tolerance reference clock sources. Ideally suited for satellite communication.<br>
+Long Range Capability: For a fixed output power and throughput, the link budget of LoRa exceeds that of conventional FSK.<br>
 VERY LARGE SCALE INTEGRATION:-<br>
 Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip. VLSI began in the 1970s when complex semiconductor and communication technologies were being developed. The microprocessor is a VLSI device.It is a process used in the design and fabrication of integrated circuits (ICs), which are electronic circuits that are made up of a large number of transistors and other components that are integrated into a single chip. 
 <img src="https://github.com/user-attachments/assets/3445748b-1492-434a-9e70-e80ade2162e0">
