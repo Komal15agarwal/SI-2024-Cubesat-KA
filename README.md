@@ -109,4 +109,33 @@ In Personal bot we generated our MQTT credentials,Station and [Web Link for myti
     <img src="https://github.com/user-attachments/assets/379bf91c-c37f-4e4e-9a08-6e7bcb66c90c" alt="Image 2" style="width: 45%;">
 </div>
 
-[Here the Records of Packets received](https://github.com/user-attachments/files/16191009/TinyGS_Record.1.xlsx)
+[Here the Records of Packets received](https://github.com/user-attachments/files/16191009/TinyGS_Record.1.xlsx)<br>
+# LAB EXERCISES
+- **Lab 1: Intro to ESP32 Programming**
+    - **Introduction to ESP32 development kit**
+       The ESP-32 is a powerful and versatile microcontroller developed by Espressif Systems. It's widely used in various IoT (Internet of Things) applications due to its robust features and capabilities.
+        - **WiFi:** It supports IEEE 802.11 b/g/n Wi-Fi, enabling connectivity to wireless networks and the internet.
+        - **Bluetooth:** Integrated Bluetooth Low Energy (BLE) allows for low-power communication with other BLE devices, making it suitable for IoT applications requiring wireless communication.
+![ESP-32](https://github.com/user-attachments/assets/683b594a-6ab8-41bd-a8fa-ef7055c31d31)
+Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
+- **Lab 2: Intro to GPIO programming**
+    - We learnt to configure a GPIO as an output and control an LED with it.
+- **Lab 3: Dimming LED using PWM**
+    - We have used the ESP32 to control the light intensity of an external LED using PWM signal.
+- **Lab 4: Dimming multiple LEDs**
+  - ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
+- Lab 5: Printing data in the serial monitor
+- Lab 6: Controlling an LED through serial monitor
+- Lab 7: I2C-based OLED Display control
+- Lab 8: Introduction Signal Processing using Python
+- Lab 9: I2C temperature sensor interface
+- Lab 10: Introduction to LoRa module
+- Lab 11: LoRa communication
+- Lab 12: Communication between two LoRa nodes
+- Lab 13: LoRa one-to-many communication setup
+- Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
+- Lab 15: Physical design of Dipole and V-dipole antennas
+- Lab 16: Introduction to TinyGS
+- Lab 17: Setting up a TinyGS ground station
+- Lab 18: Processing TLE data with Python
+- Lab 19: Simulating Digital Spread Spectrum Modulation
