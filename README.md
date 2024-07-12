@@ -122,6 +122,13 @@ Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
     - We learnt to configure a GPIO as an output and control an LED with it.
 - **Lab 3: Dimming LED using PWM**
     - We have used the ESP32 to control the light intensity of an external LED using PWM signal.
+    - From the [LED Datasheet](Resources/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
+      - Maximum Forward current (If)=30mA
+      - Typical Forward Voltage (Vf)=1.85V
+      - Dominant Wavelength (lambdaD)=640
+      - Estimate the color (RGB) from the above wavelength=Red
+      - Typical Cacpacitance (pF)=45pF
+      - Operating temperature range= -40 to 85(degree Celcius)
 - **Lab 4: Dimming multiple LEDs**
   - ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
 - Lab 5: Printing data in the serial monitor
