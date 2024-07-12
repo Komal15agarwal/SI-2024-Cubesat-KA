@@ -123,8 +123,9 @@ Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
 - **Lab 3: Dimming LED using PWM**
     - We have used the ESP32 to control the light intensity of an external LED using PWM signal.
     - From the [LED Datasheet](Resources/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
+      
        |PARAMETERS                                        |VALUES |
-       |                                                  |       |
+       |      ---                                         |  ---  |
        |Maximum Forward current (If)                      |30mA   |
        |Typical Forward Voltage (Vf)                      |1.85V  |
        |Dominant Wavelength (lambdaD)                     |640    |
@@ -132,8 +133,11 @@ Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
        |Typical Cacpacitance (pF)                         |45pF   |
        |Operating temperature range= -40 to 85(degree Celcius)
       - From the [ESP32 Datasheet](Resources/Datasheet-ESP32.pdf) find and tabulate:
-        - the maximum output voltage of the GPIO pins=4.34
-        - the maximum current that the GPIO can source from supply to the load=6.06
+     
+        |PARAMETERS                                                          |VALUES |
+        |      ---                                                            |  ---  |
+        |the maximum output voltage of the GPIO pins                         |4.34|
+        |the maximum current that the GPIO can source from supply to the load|6.06|
       - Written a program for ESP32:
         - Assigned an output port for the LED
         - Assigned an input port for 2-step dimmer control.
