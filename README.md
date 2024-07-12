@@ -123,26 +123,58 @@ Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
 - **Lab 3: Dimming LED using PWM**
     - We have used the ESP32 to control the light intensity of an external LED using PWM signal.
     - From the [LED Datasheet](Resources/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
-      - Maximum Forward current (If)=30mA
-      - Typical Forward Voltage (Vf)=1.85V
-      - Dominant Wavelength (lambdaD)=640
-      - Estimate the color (RGB) from the above wavelength=Red
-      - Typical Cacpacitance (pF)=45pF
-      - Operating temperature range= -40 to 85(degree Celcius)
+       |PARAMETERS                                        |VALUES |
+       |                                                  |       |
+       |Maximum Forward current (If)                      |30mA   |
+       |Typical Forward Voltage (Vf)                      |1.85V  |
+       |Dominant Wavelength (lambdaD)                     |640    |
+       |Estimate the color (RGB) from the above wavelength|Red    |
+       |Typical Cacpacitance (pF)                         |45pF   |
+       |Operating temperature range= -40 to 85(degree Celcius)
+      - From the [ESP32 Datasheet](Resources/Datasheet-ESP32.pdf) find and tabulate:
+        - the maximum output voltage of the GPIO pins=4.34
+        - the maximum current that the GPIO can source from supply to the load=6.06
+      - Written a program for ESP32:
+        - Assigned an output port for the LED
+        - Assigned an input port for 2-step dimmer control.
+           1: Full intensity, 0: 25-percent intensity.
+        - Writen a program to control the LED intensity using Pulse-Width Modulation (PWM).
 - **Lab 4: Dimming multiple LEDs**
   - ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
-- Lab 5: Printing data in the serial monitor
-- Lab 6: Controlling an LED through serial monitor
-- Lab 7: I2C-based OLED Display control
-- Lab 8: Introduction Signal Processing using Python
-- Lab 9: I2C temperature sensor interface
-- Lab 10: Introduction to LoRa module
-- Lab 11: LoRa communication
-- Lab 12: Communication between two LoRa nodes
-- Lab 13: LoRa one-to-many communication setup
-- Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
-- Lab 15: Physical design of Dipole and V-dipole antennas
-- Lab 16: Introduction to TinyGS
-- Lab 17: Setting up a TinyGS ground station
-- Lab 18: Processing TLE data with Python
-- Lab 19: Simulating Digital Spread Spectrum Modulation
+- **Lab 5: Printing data in the serial monitor**
+    -The Serial Monitor is an essential tool when creating projects with Arduino. It can be used as a debugging tool, testing concepts, or communicating directly with the Arduino board.
+    - he Arduino IDE 2 has the Serial Monitor tool integrated with the editor, which means that no external window is opened when using the Serial Monitor. This means that you can have multiple windows open, each with its own Serial Monitor.
+- **Lab 6: Controlling an LED through serial monitor**
+    - Controlling an LED connected to ESP32 by reading commands from the serial monitor and turning the LED on or off based on those commands.
+- **Lab 7: I2C-based OLED Display control**
+    - I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
+- **Lab 8: Introduction Signal Processing using Python**
+    - Computed the FFT of the above signal and plot it.
+      - We have notice the FFT resolution is very limited for a single cycle.
+    - Created another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
+- **Lab 9: I2C temperature sensor interface**
+    - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
+- **Lab 10: Introduction to LoRa module**
+    - Introduction to architecture and pin configuration of Ra-02 Lora transceiver module and SPI (Serial Peripheral Interface) communication.
+- **Lab 11: LoRa communication**
+    - Introduction to Lora communication using Ra-02 Lora transceiver module with ESP32.
+- **Lab 12: Communication between two LoRa nodes**
+    - Sending Text packets and receiving the text packets with **RSSI (Received Signal
+Strength Indicator)** and SNR through Serial monitor.
+    - Sending Temperature and humidity packets and receiving the same packets with RSSI (Received Signal Strength Indicator) and SNR through a Serial monitor as well as an OLED display.
+- **Lab 13: LoRa one-to-many communication setup**
+    - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
+- **Lab 14: Introduction to antenna modeling and simulation software 4NEC2.**
+    - Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
+- **Lab 15: Physical design of Dipole and V-dipole antennas**
+- **Lab 16: Introduction to TinyGS**
+- **Lab 17: Setting up a TinyGS ground station**
+- **Lab 18: Processing TLE data with Python**
+    - Using genAI tool (ChatGPT, CoPilot, etc) find out the detail about the satellite Two-Line Element (TLE) format.
+    - Write a Python programm to conver a TLE of satellite into a Lat/Long location.
+      - You can get all the TLEs of satellites tracked by TinyGS [here](https://api.tinygs.com/v1/tinygs_supported.txt)
+    - Generate the output as an URL that you can paste in a browser and get the satellite location.
+    - And modify the above program such the [TLE data file](https://api.tinygs.com/v1/tinygs_supported.txt) can be given as input with the two line numbers to process.
+- **Lab 19: Simulating Digital Spread Spectrum Modulation**
+    - Resimulate FSK from Lab 8
+    - Introduce code to convert the digital data into spread spectrum before modulating it to a higher frequency.
