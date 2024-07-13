@@ -204,6 +204,12 @@ Execute the C-Code for Blinking of LED,Fading of LED and Multiple blink of LED.
     - Computed the [FFT](LABS/PYTHON/fft.py) and [FSK](LABS/PYTHON/fsk.py) of the above signal and plot it.
       - We have notice the FFT resolution is very limited for a single cycle.
     - Created another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
+
+    <div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/user-attachments/assets/ad4fd081-c216-4e52-9384-360e680ce92e" alt="Image 1" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/dc8ea4ee-9052-4beb-a24a-bb27abc41f99" alt="Image 2" style="width: 45%;">
+</div>
+
 - **Lab 9: I2C temperature sensor interface**
     - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
     - Interfacing an I2C temperature sensor with a microcontroller like the ESP32 involves reading temperature data from the sensor using the I2C protocol.
