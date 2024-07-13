@@ -8,7 +8,7 @@ Embarking on an internship in Introduction to CubeSat and satellite communicatio
 The first CubeSats were launched in 2003 and just nine years later, the one hundredth CubeSat has been put in orbit. By the end of 2012, 112 CubeSat-class missions were flown, fielded by nearly 80 organizations from 24 countries on 29 rockets.The original intent of the project was to provide affordable access to space for the university science community, and it has successfully done so, many major universities now have a space program.
 # INTRODUCTION
 
-## What are Cubesats?
+## CUBESATS
 CubeSats are a class of nanosatellites that use a standard size and form factor.  The standard CubeSat size uses a “one unit” or “1U” measuring 10x10x10 cms and is extendable to larger sizes; 1.5, 2, 3, 6, and even 12U.  Originally developed in 1999 by California Polytechnic State University at San Luis Obispo (Cal Poly) and Stanford University to provide a platform for education and space exploration.
 <div style="display: flex; justify-content: space-between;">
     <img src="https://www.nasa.gov/wp-content/uploads/2015/03/what_are_cubesats.png" alt="Image 1" style="width: 45%;">
@@ -63,7 +63,7 @@ The communication system of a CubeSat is a critical subsystem that enables the s
     <img src="https://github.com/user-attachments/assets/1b82ec2f-d1cf-4489-9665-805642ef411a" alt="Image 2" style="width: 45%;">
 </div>
 
-## LoRa Module<br>
+## LoRa MODULE<br>
 A LoRa module is a type of wireless communication module that utilizes LoRa (Long Range) modulation technology for long-range communication with low power consumption. LoRa modules are commonly used in IoT (Internet of Things) applications, sensor networks, and other scenarios where long-distance communication and low power consumption are crucial.LoRa modules are small devices designed to transmit data on the LoRaWAN wireless network on frequencies in the 864-915 MHz range, depending on the region.<br>
 **KEY PROPERTIES OF LoRa:-** <br>
 - **Scalable bandwidth:** LoRa modulation is both bandwidth and frequency scalable. It can be used for both narrowband frequency hopping and wideband direct sequence applications.<br>
