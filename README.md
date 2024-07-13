@@ -1,6 +1,7 @@
-# **INTRODUCTION TO CUBESAT AND SATELLITE**<br> 
+# **INTRODUCTION TO CUBESAT AND SATELLITE COMMUINICATION**<br> 
 **My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation**<br>
-**Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity.**<br>
+
+Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity. <br>
 
 ![Glimpse to Cubesat](https://www.cblelectronics.com/sites/default/files/2022-03/cubesat-00.jpg)
 # ABSTRACT
@@ -15,7 +16,7 @@ CubeSats are a class of nanosatellites that use a standard size and form factor.
 </div>
 NASA Ames launched its first CubeSat, GeneSat, in December 2006.  Since then Ames has launched 16 CubeSat spacecraft varying in size from 1U to 3U with an additional 12 CubeSats in development or awaiting launch.<br>
 
-## CUBESAT DISPENSER:-<br>
+## CUBESAT DISPENSER<br>
 The dispenser, which is the interface between the CubeSat and the launch vehicle (LV). The dispenser provides attachment to a launch vehicle (or rocket), protects the CubeSat during launch, and releases it into space at the appropriate time.There are a number of different types of dispensers on the market. Each has different features, but they are all designed to hold satellites that conform to the standard CubeSat form factor.<img src="https://insights.globalspec.com/images/assets/912/11912/ULA_CubeSat_NPSCul-Lite_ABC.png" alt="Image" style="float: right; margin-left: 10px;">
 **The project phases (and typical timeframes) are as follows:<br>**
 - Concept Development (1–6 months)<br>
@@ -38,7 +39,7 @@ The dispenser, which is the interface between the CubeSat and the launch vehicle
 A minimal payload refers to the basic set of components and instruments carried onboard a satellite, particularly CubeSats, to achieve its primary mission objectives. This concept is crucial in the context of CubeSats due to their small size, limited resources, and constrained budgets. The idea is to design and implement a payload that is essential, compact, and efficient, ensuring that the satellite can still perform meaningful tasks despite its size limitations.
 <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/0cc567cb-93d5-4572-9e43-fb2f154d03d2">
 
-## CUBESAT ARCHITECTURE:-<br>
+## CUBESAT ARCHITECTURE<br>
 The communication system of a CubeSat is a critical subsystem that enables the satellite to establish communication links with ground stations for data transmission, command reception, and telemetry monitoring. Given the small size and low power constraints of CubeSats, the communication system is designed to be compact, efficient, and capable of operating within the limitations of the CubeSat platform.<br>
 - **Transceiver:-**
   The transceiver serves as the primary radio communication device onboard the CubeSat. It transmits data to ground stations and receives commands and telemetry data from Earth.CubeSats typically operate in 
@@ -53,7 +54,7 @@ The communication system of a CubeSat is a critical subsystem that enables the s
     <img src="https://github.com/Komal15agarwal/SI-2024-Cubesat-KA/assets/120729898/f3d10417-e48d-479c-ac7b-51cb335c7313" alt="Image 2" style="width: 45%;">
 </div>
 
-## DIGITAL MODULATION METHODS:- <br>
+## DIGITAL MODULATION METHODS <br>
 - **BANDPASS MODULATION:-** It refers to modulation of signal over a carrier frequency. In these techniques the signal to be transmitted is sent by modulating either one or more of the three properties of carrier wave. <br>
 - **Frequency Shift Keying:-** It is a frequency modulation scheme in which digital information is encoded on a carrier signal by periodically shifting the frequency of the carrier between several discrete frequencies.<br>
 - **Fast Fourier Transform:-** FFT is a fast algorithm for computing the DFT of a sequence or its inverse. The DFT converts a signal from its original domain (typically time or space) to a representation in the frequency domain.<br>
@@ -62,7 +63,7 @@ The communication system of a CubeSat is a critical subsystem that enables the s
     <img src="https://github.com/user-attachments/assets/1b82ec2f-d1cf-4489-9665-805642ef411a" alt="Image 2" style="width: 45%;">
 </div>
 
-## LoRa Module:-<br>
+## LoRa Module<br>
 A LoRa module is a type of wireless communication module that utilizes LoRa (Long Range) modulation technology for long-range communication with low power consumption. LoRa modules are commonly used in IoT (Internet of Things) applications, sensor networks, and other scenarios where long-distance communication and low power consumption are crucial.LoRa modules are small devices designed to transmit data on the LoRaWAN wireless network on frequencies in the 864-915 MHz range, depending on the region.<br>
 **KEY PROPERTIES OF LoRa:-** <br>
 - **Scalable bandwidth:** LoRa modulation is both bandwidth and frequency scalable. It can be used for both narrowband frequency hopping and wideband direct sequence applications.<br>
@@ -71,10 +72,10 @@ A LoRa module is a type of wireless communication module that utilizes LoRa (Lon
 - **Multipath / fading resistant:** The chirp pulse is relatively broadband and thus LoRa offers immunity to multipath and fading, making it ideal for use in urban and suburban environments, where both mechanisms dominate.<br>
 - **Doppler Resistant:** Doppler shift causes a small frequency shift in the LoRa pulse which introduces a relatively negligible shift in the time axis of the baseband signal. This frequency offset tolerance mitigates the requirement for tight tolerance reference clock sources. Ideally suited for satellite communication.<br>
 - **Long Range Capability:** For a fixed output power and throughput, the link budget of LoRa exceeds that of conventional FSK.<br>
-## VERY LARGE SCALE INTEGRATION:-<br>
+## VERY LARGE SCALE INTEGRATION<br>
 Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip. VLSI began in the 1970s when complex semiconductor and communication technologies were being developed. The microprocessor is a VLSI device.It is a process used in the design and fabrication of integrated circuits (ICs), which are electronic circuits that are made up of a large number of transistors and other components that are integrated into a single chip. <br>
 <img src="https://github.com/user-attachments/assets/3445748b-1492-434a-9e70-e80ade2162e0">
-## 4nec2:-<br>
+## 4nec2<br>
 4nec2 is a Windows-based graphical user interface (GUI) program that interfaces with NEC-2 (Numerical Electromagnetics Code), a method of moments solver. NEC-2 is a computer code used to analyze the electromagnetic response of antennas and other metal structures. 4nec2 simplifies the process of designing and simulating antennas by providing a visual interface and various tools to manipulate antenna geometries, analyze performance, and visualize results.<br>
 - **To use 4nec2,perform following steps:**
     - **Download and Install:** Download the 4nec2 software from trusted sources online and install it on a Windows-based computer.
@@ -87,8 +88,8 @@ Very-large-scale integration (VLSI) is the process of creating an integrated cir
     <img src="https://github.com/user-attachments/assets/c2fe779a-f342-47d8-85df-c1bf95be101d" alt="Image 2" style="width: 45%;">
 </div>
 
-## Introduction to Antenna:-<br>
-Antennas are used to transmit and receive information through changes in the electromagnetic fields that surround them.It employed in space communications are key components providing the vital links between the ground and the spacecraft.An antenna is a fundamental component in the field of electromagnetic waves and communication systems, serving as the interface between electrical signals propagating through conductors and electromagnetic waves traveling through space.<br>
+## INTRODUCTION TO ANTENNA
+An antenna serves as a crucial component in the field of electromagnetic waves and communication systems. It functions as a transducer, converting electrical signals into electromagnetic waves (transmitting antenna) or vice versa (receiving antenna). Antennas are fundamental in wireless communication, radar systems, broadcasting, and even astronomy. They come in various shapes and sizes, each designed to optimize efficiency for specific frequency ranges and directional patterns.
 **Basic Principles of Antennas:** <br>
 - **Functionality:** <br>
     - **Radiation and Reception:** Antennas convert electrical signals into electromagnetic waves for transmission (radiation) and vice versa for reception.<br>
@@ -111,21 +112,21 @@ Antennas are used to transmit and receive information through changes in the ele
     <img src="https://github.com/user-attachments/assets/581cfdb4-80c6-4f5b-b5ee-ecd0f1f95cb7" alt="Image 2" style="width: 45%;">
 </div>
 
-## SPREAD SPECTRUM:-<br>
+## SPREAD SPECTRUM<br>
 Spread spectrum is a technique used in wireless communication to spread the signal over a wider bandwidth than the minimum required for transmitting the data. This method offers several advantages, including increased resistance to interference, improved security, and reduced susceptibility to jamming.
 - **Resistance to Interference:** Spread spectrum techniques spread the signal energy over a wider bandwidth, making the signal less susceptible to narrowband interference and jamming.
 - **Enhanced Security:** Due to the spreading code or hopping sequence known only to authorized users, spread spectrum systems offer inherent security against unauthorized interception.
 - **Multiple Access Capability:** Allows multiple users to share the same frequency band without significant mutual interference, enhancing spectral efficiency in crowded radio environments.
 - **Improved Signal Quality:** Spread spectrum mitigates multipath effects and improves signal robustness, resulting in more reliable communication in various environmental conditions.
 ![Spread spectrum](https://github.com/user-attachments/assets/56e1aef2-5bd0-487d-8bb0-54e13e78576e)
-## TINY GROUND STATION:-<br>
+## TINY GROUND STATION<br>
 TinyGS is an open network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules.Initially TinyGS was born under the name ESP32 Fossa Groundstation, it was developed as a "weekend" project for the FossaSAT-1 LoRa satellite. We are passionate about space and created this project to be able to track and use the satellites and to learn and experiment about radio. Currently the network is open to any LoRa satellite and we also support other flying objects that have a compatible radio modulation with our hardware such as FSK, GFSK, MSK, GMSK, LoRa and OOK. And the project was renamed to TinyGS.
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/user-attachments/assets/942f2eed-8db5-4f02-a352-e55d79052682" alt="Image 1" style="width: 45%;">
     <img src="https://github.com/user-attachments/assets/bece17a1-4db8-4502-b4de-f56adf91ea27" alt="Image 2" style="width: 45%;">
 </div>
 
-- **INSTALLTION OF TINY GS:** <br>
+- **INSTALLTION OF TINY GS** <br>
 The first time you flash your board you can use the [web installer](https://installer.tinygs.com/) using Google Chrome web browser on Linux, Windows or MacOS. Follow instructions there.<br>
 All data received by TinyGS Ground Stations are showed at [TinyGS website](https://tinygs.com/)
 - **Community:** <br>
