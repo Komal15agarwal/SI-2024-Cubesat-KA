@@ -1,4 +1,4 @@
-# **INTRODUCTION TO CUBESAT AND SATELLITE COMMUINICATION**<br> 
+# **INTRODUCTION TO CUBESAT AND SATELLITE COMMUNICATION**<br> 
 **My Journey through an Internship in Introduction to CubeSat and Satellite Commuincation**<br>
 
 Embarking on an internship in Introduction to CubeSat and satellite communication has been an exhilarating journey filled with learning, challenges, and significant growth. Here's a glimpse into my experience and what I've gained from this transformative opportunity. <br>
